@@ -148,11 +148,22 @@ img {
   color: #fff;
 }
 
+.show {
+  display: block !important;
+}
+
 .container {
   max-width: 70%;
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
+}
+
+/* hide contents initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
 }
 
 #tab-1-content .tab-1-content-inner {
